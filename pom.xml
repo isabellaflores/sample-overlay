@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>demo-overlay</artifactId>
+    <artifactId>sample-overlay</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -30,7 +30,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <finalName>demo</finalName>
+                    <finalName>overlay</finalName>
                     <outputDirectory>${basedir}/pkg</outputDirectory>
                 </configuration>
             </plugin>

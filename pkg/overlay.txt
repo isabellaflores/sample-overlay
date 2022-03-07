@@ -4,4 +4,4 @@ It will also detect whether Notepad is running on the target machine, and will d
 
 You can download this overlay's source code from GitHub, and use it as a starting point for your own overlays.
 
-By default, this overlay is configured to cost a very small amount of Nano, but you can make it free by editing demo.json, and setting "price" to 0.
+By default, this overlay is configured to cost a very small amount of Nano, but you can make it free by editing overlay.json, and setting "price" to 0.

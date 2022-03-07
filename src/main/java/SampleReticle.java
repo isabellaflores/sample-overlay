@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 
-public class DemoReticle {
+public class SampleReticle {
 
     private static final double RETICLE_POINT_RADIUS = 3.5;
     private static final double RETICLE_SHORT_DIMENSION = 2.0;

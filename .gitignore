@@ -1,5 +1,5 @@
 /idea/
 /target/
 /pkg/**
-!/pkg/demo.json
-!/pkg/demo.txt
+!/pkg/overlay.json
+!/pkg/overlay.txt

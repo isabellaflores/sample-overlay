@@ -1,11 +1,9 @@
-import iflores.vamos.VProcesses;
-
 import javax.swing.*;
 import java.awt.*;
 
-public class DemoPanel extends JComponent {
+public class SamplePanel extends JComponent {
 
-    private final DemoReticle _demoReticle = new DemoReticle();
+    private final SampleReticle _sampleReticle = new SampleReticle();
     private Boolean _notepadRunning;
 
     @Override
@@ -28,7 +26,7 @@ public class DemoPanel extends JComponent {
         g2.setColor(Color.RED);
         g2.setStroke(new BasicStroke(10));
         g2.drawRect(0, 0, getWidth(), getHeight());
-        _demoReticle.draw(
+        _sampleReticle.draw(
                 g2,
                 getWidth(),
                 getHeight()
